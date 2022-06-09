@@ -1,7 +1,7 @@
-rule Udacity_detector {
+rule suspicious_url_detector {
         meta:
                 Author = "South Udan"
-                Description = "This rule detects darklord url in this ubuntu server."
+                Description = "This rule detects suspicious url in the ubuntu server."
         strings:
                 $url = "darkl0rd" nocase
         condition:
