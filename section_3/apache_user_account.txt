@@ -2,6 +2,9 @@
 
 
 #Configuration lines:
+groupadd apache-group
+useradd apache-user
 
+usermod -g apache-group apache-user
 
-
+%apache-group ALL=(ALL) ALL, !DISABLE_SU
