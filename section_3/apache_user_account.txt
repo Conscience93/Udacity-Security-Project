@@ -7,4 +7,7 @@ useradd apache-user
 
 usermod -g apache-group apache-user
 
+vi /etc/sudoers
+
+#add line
 %apache-group ALL=(ALL) ALL, !DISABLE_SU
