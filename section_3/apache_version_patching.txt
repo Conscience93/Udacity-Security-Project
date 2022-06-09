@@ -1,5 +1,5 @@
 #Provide the apache version and configuration lines to be changed 
-
+#Reference: https://www.tecmint.com/hide-apache-web-server-version-information/
 
 # Apache Version
 cpe:/a:apache:http_server:2.4.7
