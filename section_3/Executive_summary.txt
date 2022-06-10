@@ -1,0 +1,6 @@
+Executive Summary
+
+Our linux servers had been compromised by the attackers and they managed to brute force on one of our user. They elevated the user privilege and
+use it to create new user for themselves and create a malicious process for remote execution for further attacks. All the new user and process had been contained.
+From this incident, we detected several vulnerabilities in our servers and we have recommended several recommendations to be done immediately, most notably strong
+password policies and securing remote login processes.
