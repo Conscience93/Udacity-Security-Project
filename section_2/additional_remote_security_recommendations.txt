@@ -1,0 +1,13 @@
+Scenario 1: The servers can be accessed anywhere if given the ip address and through any port without any athentication.
+
+Recommendation for securing remote login process:
+- Set the number of login attempts with the maximum of three attempts. If exceeded the maximum attempts, the user will be locked out for a certain period of time.
+  This is to prevent numerous brute force attempts.
+- Allow only certain IP addresses to log in. This can be done through iptables.
+  
+Scenario 2: The attacker is able to brute force the password for ubuntu user in the server.
+Recommendation for password management:
+- Set up a password policy so the attacker would not be able to brute force a simple password.
+  The policy is have at least 8 number of characters, one capital letter, one number and one special symbol.
+- Change password for every 3 months or earlier.
+- If possible, set up two-factor or multi-factor authentication for enhanced security for login processes.
